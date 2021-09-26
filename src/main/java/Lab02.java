@@ -2,7 +2,7 @@ public class Lab02 {
 import java.util.Arrays;
 
 public class Lab02 {
-    public static double[] map(double [] NArray, UnaryFunction ufunction){
+    public static double[] map(UnaryFunction ufunction, double [] NArray){
         double[] results = new double[NArray.length];
         int i=0;
         for (double N : NArray){
