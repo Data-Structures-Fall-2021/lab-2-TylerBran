@@ -1,4 +1,3 @@
-public class Lab02 {
 import java.util.Arrays;
 
 public class Lab02 {
@@ -12,5 +11,4 @@ public class Lab02 {
         System.out.println(Arrays.toString(results));
         return results;
     }
-}
 }
